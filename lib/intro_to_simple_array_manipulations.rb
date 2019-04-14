@@ -20,3 +20,8 @@ def using_shift(array)
   new_element =array.shift 
   return new_element
 end 
+
+def shift_with_args(array)
+  1st_two_elements = array.shift(2)
+  return 1st_two_elements
+end 
