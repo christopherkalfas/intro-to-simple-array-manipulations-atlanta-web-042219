@@ -12,6 +12,6 @@ def using_pop(array)
 end 
 
 def pop_with_args(array)
-  last_two_popped_elements = []
-  popped_element1 = array.popped
-  return pop
+  popped_elements = [array.popped(-2,2)]
+  return popped_elements
+end 
