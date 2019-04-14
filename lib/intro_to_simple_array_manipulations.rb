@@ -22,6 +22,6 @@ def using_shift(array)
 end 
 
 def shift_with_args(array)
-  1st_two_elements = array.shift(2)
-  return 1st_two_elements
+  first_two_elements = array.shift(2)
+  return first_two_elements
 end 
